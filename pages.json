@@ -1,0 +1,191 @@
+{
+  "pages": [
+    {
+      "path": "pages/Login/Login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/workPlace/PersonAdmin/personAdmin",
+      "style": {
+        "navigationBarTitleText": "人员管理",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/Index/Index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/workPlace/workPlace",
+      "style": {
+        "navigationBarTitleText": "工作台",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/Register/Register",
+      "style": {
+        "navigationBarTitleText": "用户注册",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/Register/CreateFace",
+      "style": {
+        "navigationBarTitleText": "用户注册",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/Register/success/Success",
+      "style": {
+        "navigationBarTitleText": "用户注册",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+
+    {
+      "path": "pages/Index/FaceSignIn/FaceSignIn",
+      "style": {
+        "navigationBarTitleText": "人脸签到",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/Index/success/SignInSuccess",
+      "style": {
+        "navigationBarTitleText": "人脸签到",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/workPlace/LeaveRequest/LeaveRequest",
+      "style": {
+        "navigationBarTitleText": "请假申请",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/workPlace/ClassAdmin/classList",
+      "style": {
+        "navigationBarTitleText": "我的班级",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/Index/SignInList/SignInList",
+      "style": {
+        "navigationBarTitleText": "考勤详情",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/workPlace/ClassAdmin/classAdmin",
+      "style": {
+        "navigationBarTitleText": "班级管理",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/workPlace/ClassAdmin/classSetting",
+      "style": {
+        "navigationBarTitleText": "班级管理",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/SignInParticulars/SignInParticulars",
+      "style": {
+        "navigationBarTitleText": "签到详情",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/workPlace/LeaveAudit/LeaveAudit",
+      "style": {
+        "navigationBarTitleText": "请假审批",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/SignInParticulars/SignInHistory",
+      "style": {
+        "navigationBarTitleText": "签到记录",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+
+    {
+      "path": "pages/Index/createSignIn/createSignIn",
+      "style": {
+        "navigationBarTitleText": "创建考勤",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "usingComponents": {
+      "van-button": "/wxcomponents/@vant/weapp/dist/button/index",
+      "van-icon": "/wxcomponents/@vant/weapp/dist/icon/index",
+      "van-toast": "/wxcomponents/@vant/weapp/dist/toast/index",
+      "van-dialog": "/wxcomponents/@vant/weapp/dist/dialog/index",
+      "van-empty": "/wxcomponents/@vant/weapp/dist/empty/index",
+      "van-image": "/wxcomponents/@vant/weapp/dist/image/index",
+      "van-cell": "/wxcomponents/@vant/weapp/dist/cell/index",
+      "van-cell-group": "/wxcomponents/@vant/weapp/dist/cell-group/index",
+      "van-tag": "/wxcomponents/@vant/weapp/dist/tag/index",
+      "van-nav-bar": "/wxcomponents/@vant/weapp/dist/nav-bar/index",
+      "van-action-sheet": "/wxcomponents/@vant/weapp/dist/action-sheet/index",
+      "van-datetime-picker": "/wxcomponents/@vant/weapp/dist/datetime-picker/index",
+      "van-count-down": "/wxcomponents/@vant/weapp/dist/count-down/index"
+    }
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "#0256ff",
+    "color": "#767676",
+    "list": [
+      {
+        "pagePath": "pages/Index/Index",
+        "iconPath": "./static/tabbar/home-normal.png",
+        "selectedIconPath": "./static/tabbar/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/workPlace/workPlace",
+        "iconPath": "./static/tabbar/work-normal.png",
+        "selectedIconPath": "./static/tabbar/work-active.png",
+        "text": "工作台"
+      }
+    ]
+  },
+  "uniIdRouter": {}
+}
