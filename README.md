@@ -41,3 +41,6 @@ npm install
 
 请假申请
 ![请假申请](https://github.com/KiteRunner-hrl/kbd/blob/main/imgRepository/%E8%AF%B7%E5%81%87%E7%94%B3%E8%AF%B7.png)
+
+请假审批
+![请假审批](https://github.com/KiteRunner-hrl/kbd/blob/main/imgRepository/%E8%AF%B7%E5%8A%A0%E5%AE%A1%E6%89%B9.png)
