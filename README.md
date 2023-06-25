@@ -38,3 +38,6 @@ npm install
 
 人脸登录
 ![人脸登录](https://github.com/KiteRunner-hrl/kbd/blob/main/imgRepository/signin.png)
+
+请假申请
+![请假申请](https://github.com/KiteRunner-hrl/kbd/blob/main/imgRepository/%E8%AF%B7%E5%81%87%E7%94%B3%E8%AF%B7.png)
