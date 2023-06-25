@@ -27,4 +27,4 @@ npm install
 
 展示
 ------
-![login] (https://github.com/KiteRunner-hrl/kbd/blob/main/imgRepository/login.jpg)
+![] (https://github.com/KiteRunner-hrl/kbd/blob/main/imgRepository/login.jpg)
