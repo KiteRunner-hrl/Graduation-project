@@ -35,3 +35,6 @@ npm install
 注册
 
 ![注册](https://github.com/KiteRunner-hrl/kbd/blob/main/imgRepository/register.png)
+
+人脸登录
+![人脸登录](https://github.com/KiteRunner-hrl/kbd/blob/main/imgRepository/signin.png)
